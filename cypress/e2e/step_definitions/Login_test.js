@@ -14,8 +14,8 @@ Then("User enters email as {string}, password as {string} and creates an account
     login.enter_email_password(email,password)
 })
 Then("User does logout and navigates to login page",()=>{
-
+    login.logout()
 })
 Then("User logins with email as {string} and password as {string}",(email,password)=>{
-
+    login.relogin(email,password)
 })
