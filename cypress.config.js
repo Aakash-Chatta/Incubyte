@@ -9,6 +9,9 @@ module.exports = defineConfig({
       //implement node event listeners here
     },
   },
+  video: true,
+  videoCompression: false,
+  videoUploadOnPasses: true,
   defaultCommandTimeout:15000,
   viewportHeight:1080,
   viewportWidth:1920,
